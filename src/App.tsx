@@ -1,12 +1,12 @@
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <>
-      <div>
-        <p className="underline text-xl">Welcome</p>
-      </div>
-    </>
+    <div className="app">
+      {/* ======= Navbar ======== */}
+      <Navbar />
+    </div>
   );
 }
 

@@ -1,0 +1,23 @@
+nav {
+  @apply flex items-center justify-around w-full p-8;
+}
+
+.logo > img {
+  @apply w-[42px];
+}
+
+.menu {
+  @apply flex gap-8 text-sm;
+}
+
+.cart {
+  @apply bg-[#AD00DE] p-2 rounded-full;
+}
+
+.cart > img {
+  @apply w-[24px];
+}
+
+.buynow {
+  @apply w-[115px] bg-gradient-to-l from-[#FF00BF] to-[#5500FF] -skew-x-12 flex justify-center items-center;
+}
