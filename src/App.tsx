@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div>
-        <p>Welcome</p>
+        <p className="underline text-xl">Welcome</p>
       </div>
     </>
   );
