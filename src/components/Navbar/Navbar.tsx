@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import Logo from "../../assets/logo.png";
 import Cart from "../../assets/shopCart.png";
+import Button from "../Button/Button";
 
 const Navbar = () => {
   return (
@@ -19,9 +20,7 @@ const Navbar = () => {
         <div className="cart">
           <img src={Cart} alt="shopping_cart" />
         </div>
-        <div className="buynow">
-          <button>Buy Now</button>
-        </div>
+        <Button value={"Buy now"} />
       </div>
     </nav>
   );

@@ -1,0 +1,19 @@
+.home {
+  @apply grid grid-cols-2 mx-16 p-4 items-center;
+}
+
+.home > img {
+  @apply w-[520px];
+}
+
+.home > .home__info {
+  @apply flex flex-col gap-4 pl-8;
+}
+
+.home > .home__info p {
+  @apply text-5xl leading-[4rem];
+}
+
+.home > .home__info p > span {
+  @apply font-extrabold;
+}

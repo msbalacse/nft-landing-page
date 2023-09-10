@@ -17,7 +17,3 @@ nav {
 .cart > img {
   @apply w-[24px];
 }
-
-.buynow {
-  @apply w-[115px] bg-gradient-to-l from-[#FF00BF] to-[#5500FF] -skew-x-12 flex justify-center items-center;
-}

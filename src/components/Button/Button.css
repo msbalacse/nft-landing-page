@@ -1,0 +1,3 @@
+.buynow {
+  @apply w-[115px] h-[40px] bg-gradient-to-l from-[#FF00BF] to-[#5500FF] -skew-x-[25deg] flex justify-center items-center;
+}
