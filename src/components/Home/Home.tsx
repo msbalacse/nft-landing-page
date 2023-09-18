@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.css";
 import skull from "../../assets/skull mushroom.png";
 import playBtn from "../../assets/playBtn.png";
@@ -12,7 +11,7 @@ const Home = () => {
           GATHER YOUR <span>RARE NFT</span> HAS ARIVED.
         </p>
         <Button value={"Explore More"} />
-        <div className="inline-flex gap-2 items-center">
+        <div className="inline-flex items-center gap-2">
           <img src={playBtn} className="w-8" alt="play button" />
           <span>show video</span>
         </div>

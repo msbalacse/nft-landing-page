@@ -7,7 +7,7 @@ function App() {
     <div className="app">
       {/* ======= Navbar ======== */}
       <Navbar />
-      {/* ======= Navbar ======== */}
+      {/* ======= Home ======== */}
       <Home />
     </div>
   );
